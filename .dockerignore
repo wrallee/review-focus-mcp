@@ -1,0 +1,9 @@
+.git
+.github
+bin
+ui/node_modules
+ui/dist
+internal/mcpapp/dist
+*.log
+.DS_Store
+.env
