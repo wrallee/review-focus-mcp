@@ -98,8 +98,6 @@ claude mcp add review-focus -- \
   docker run --rm -i \
   -e REVIEW_FOCUS_GITHUB_URL \
   -e REVIEW_FOCUS_GITHUB_TOKEN \
-  -e REVIEW_FOCUS_GITHUB_API_URL \
-  -e REVIEW_FOCUS_GITHUB_API_VERSION \
   -e REVIEW_FOCUS_DATA_DIR=/data \
   -v review-focus-data:/data \
   review-focus-mcp
